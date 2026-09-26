@@ -1,0 +1,12 @@
+{
+  "name": "helium-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Encrypted password manager with autofill for the Helium browser",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/unit/*.test.js",
+    "test:e2e": "node --test tests/e2e/*.test.js",
+    "package": "cd extension && zip -qr ../helium-vault.zip . -x 'icons/icon.svg'"
+  }
+}

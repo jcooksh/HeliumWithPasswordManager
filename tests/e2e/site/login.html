@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Login</title></head>
+<body style="font-family:sans-serif;padding:40px">
+<h1>Example login</h1>
+<form action="/welcome.html" method="get" id="f">
+  <p><input id="user" name="username" autocomplete="username" placeholder="Email"></p>
+  <p><input id="pass" name="password" type="password" autocomplete="current-password" placeholder="Password"></p>
+  <p><button type="submit">Sign in</button></p>
+</form>
+<!-- A hidden form that a tracking script might use to harvest autofilled credentials. -->
+<form style="display:none" id="trap"><input name="email" id="trapUser"><input type="password" id="trapPass"></form>
+</body></html>

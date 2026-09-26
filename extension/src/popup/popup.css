@@ -1,0 +1,20 @@
+body { width: 360px; min-height: 200px; }
+header { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+header .title { font-weight: 700; font-size: 14px; }
+header button { padding: 4px 8px; font-size: 12px; }
+.pad { padding: 14px; display: grid; gap: 10px; }
+.pad h2 { margin: 0; font-size: 15px; }
+.list { max-height: 330px; overflow-y: auto; }
+.login { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.login:last-child { border-bottom: 0; }
+.login .sub { font-size: 12px; color: var(--fg-muted); }
+.login .btns { display: flex; gap: 4px; }
+.login .btns button { padding: 3px 7px; font-size: 12px; }
+.section { padding: 8px 12px 4px; font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--fg-muted); }
+.empty { padding: 18px 12px; text-align: center; color: var(--fg-muted); }
+footer { display: flex; gap: 6px; padding: 10px 12px; border-top: 1px solid var(--border); }
+footer button { flex: 1; font-size: 12px; padding: 6px; }
+.gen { padding: 10px 12px; border-top: 1px solid var(--border); display: grid; gap: 8px; background: var(--bg-soft); }
+.gen .out { font-family: var(--mono); font-size: 13px; word-break: break-all; background: var(--bg); padding: 8px; border-radius: var(--radius); border: 1px solid var(--border); }
+.toast { position: fixed; bottom: 60px; left: 50%; transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 6px 12px; border-radius: 20px; font-size: 12px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+.toast.show { opacity: 1; }
