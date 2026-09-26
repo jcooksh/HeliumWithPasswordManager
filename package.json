@@ -1,6 +1,6 @@
 {
   "name": "helium-vault",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Encrypted password manager with autofill for the Helium browser",
   "type": "module",

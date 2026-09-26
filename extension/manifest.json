@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Helium Vault",
   "short_name": "Helium Vault",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A private, encrypted password manager with autofill for Helium (works in any Chromium browser).",
   "minimum_chrome_version": "121",
   "icons": {
