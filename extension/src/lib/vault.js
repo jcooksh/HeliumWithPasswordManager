@@ -101,8 +101,8 @@ export async function create(password) {
 }
 
 export function checkMasterPassword(password) {
-  if (typeof password !== 'string' || password.length < 10) {
-    throw new Error('Master password must be at least 10 characters.');
+  if (typeof password !== 'string' || !password) {
+    throw new Error('Enter a master password.');
   }
 }
 

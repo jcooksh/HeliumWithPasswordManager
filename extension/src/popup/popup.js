@@ -32,7 +32,7 @@ function viewSetup() {
     e.preventDefault();
     error.textContent = '';
     if (pw.value !== confirm.value) return (error.textContent = 'Passwords do not match.');
-    if (pw.value.length < 10) return (error.textContent = 'Use at least 10 characters.');
+    if (!pw.value) return (error.textContent = 'Enter a master password.');
     btn.disabled = true;
     btn.textContent = 'Creating…';
     try {
